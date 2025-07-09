@@ -1,10 +1,10 @@
-# LagosLuxe – Discover Luxury, Comfort & Style in Lagos 🌇✨
+# LagosLuxe – Discover Luxury, Comfort & Style in Lagos 
 
 **LagosLuxe** is a responsive front-end website for discovering and booking luxury hotel experiences in Lagos, Nigeria. Designed with a clean, elegant layout and enhanced with animations, this project showcases strong HTML, CSS, responsive design, and Git/GitHub skills — making it ideal for modern front-end developer portfolios.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [About the Project](#about-the-project)
 - [Key Features](#key-features)
@@ -17,7 +17,7 @@
 
 ---
 
-## 📖 About the Project
+##  About the Project
 
 **LagosLuxe** is more than a hotel booking site — it's a luxury lifestyle experience. This project was created to demonstrate the implementation of a modern, responsive, multi-page front-end website using HTML and CSS only (with a sprinkle of animation and interactivity).
 
@@ -33,33 +33,33 @@ This project demonstrates:
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- **🧭 Fully Responsive Design**: Mobile, tablet, and desktop support using media queries  
-- **🛎️ Booking Form**: Form to select check-in/check-out dates, room types, and preferences  
-- **📚 Blog Page**: Layout ready for lifestyle or travel blog content  
-- **💬 Contact Form**: Accessible and styled inquiry form  
-- **🚀 Homepage Animation**: Swiper.js-powered image slider  
-- **🔐 Login & Signup Pages**: Simple styled front-end auth pages  
-- **🧩 Component Reusability**: Consistent button, layout, and section structure  
-- **🎨 Elegant Branding**: Visual identity that reflects a luxury hotel brand  
+- ** Fully Responsive Design**: Mobile, tablet, and desktop support using media queries  
+- ** Booking Form**: Form to select check-in/check-out dates, room types, and preferences  
+- ** Blog Page**: Layout ready for lifestyle or travel blog content  
+- ** Contact Form**: Accessible and styled inquiry form  
+- ** Homepage Animation**: Swiper.js-powered image slider  
+- ** Login & Signup Pages**: Simple styled front-end auth pages  
+- ** Component Reusability**: Consistent button, layout, and section structure  
+- ** Elegant Branding**: Visual identity that reflects a luxury hotel brand  
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
-### ✅ Homepage  
+###  Homepage  
 ![Homepage](./image/House.jpg)
 
-### ✅ Booking Page  
+###  Booking Page  
 ![Booking](./image/Room4.jpg)
 
-### ✅ Services Page  
+###  Services Page  
 ![Services](./image/Room5.jpg)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Tech/Tool     | Purpose                               |
 |---------------|----------------------------------------|
@@ -72,7 +72,7 @@ This project demonstrates:
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 LAGOSLUXE WEBSITE/
 │
@@ -95,7 +95,7 @@ Edit
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 To view the website locally:
 
@@ -113,15 +113,15 @@ Open index.html in your browser to explore the homepage.
 
 ⚠️ Note: This is a static front-end website with no backend/database integration.
 
-🙋🏽‍♀️ Author
+ Author
 Adaora Eneje
 Front-End Developer
-📩 Email: adaoraeneje@gmail.com
-🔗 GitHub: github.com/adaoraeneje
-🌍 Location: Lagos, Nigeria
-💼 Actively seeking junior front-end developer roles or internships
+ Email: adaoraeneje@gmail.com
+ GitHub: github.com/adaoraeneje
+ Location: Lagos, Nigeria
+ Actively seeking junior front-end developer roles or internships
 
-📜 License
+ License
 This project is open-source and available for:
 
 Learning and practice
