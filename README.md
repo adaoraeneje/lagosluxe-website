@@ -1,4 +1,6 @@
 # LagosLuxe – Discover Luxury, Comfort & Style in Lagos 
+🔗 **Live Demo:** [View LagosLuxe Website](https://adaoraeneje.github.io/lagosluxe-website/)
+
 
 **LagosLuxe** is a responsive front-end website for discovering and booking luxury hotel experiences in Lagos, Nigeria. Designed with a clean, elegant layout and enhanced with animations, this project showcases strong HTML, CSS, responsive design, and Git/GitHub skills — making it ideal for modern front-end developer portfolios.
 
@@ -49,13 +51,13 @@ This project demonstrates:
 ##  Screenshots
 
 ###  Homepage  
-![Homepage](./image/House.jpg)
+![Homepage](./docs/image/HOME%20.png)
 
 ###  Booking Page  
-![Booking](./image/Room4.jpg)
+![Booking](./docs/image/Booking.png)
 
-###  Services Page  
-![Services](./image/Room5.jpg)
+###  Blog Page  
+![Blog](./docs/image/Blog.png)
 
 ---
 
