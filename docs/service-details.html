@@ -19,16 +19,23 @@
         <h1 class="brand-name">LagosLuxe</h1>
       </div>
       <div class="header-right">
-        <nav class="navigation">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <a href="Signup.html" class="btn">Sign Up</a>
-      </div>
+  <!-- Mobile Menu Icon -->
+  <div class="menu-toggle" id="mobile-menu">☰</div>
+
+  <!-- Navigation -->
+  <nav class="navigation" id="nav-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a href="Signup.html" class="btn">Sign Up</a>
+</div>
+
     </div>
   </header>
 
@@ -93,5 +100,14 @@
       duration: 1000,
     });
   </script>
+
+  <script>
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 </body>
 </html>

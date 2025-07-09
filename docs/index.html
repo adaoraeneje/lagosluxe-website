@@ -19,25 +19,32 @@
 
   <!-- HEADER -->
   <header class="site-header">
-    <div class="container">
-      <div class="brand">
-        <img src="./image/lagosluxe Logo.jpg" alt="LagosLuxe Logo" />
-        <h1 class="brand-name">LagosLuxe</h1>
-      </div>
-      <div class="header-right">
-        <nav class="navigation">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <a href="Signup.html" class="btn">Sign Up</a>
-      </div>
+  <div class="container">
+    <div class="brand">
+      <img src="./image/lagosluxe Logo.jpg" alt="LagosLuxe Logo" />
+      <h1 class="brand-name">LagosLuxe</h1>
     </div>
-  </header>
+
+    <div class="header-right">
+      <!-- Hamburger Menu for Mobile -->
+      <div class="menu-toggle" id="mobile-menu">☰</div>
+
+      <!-- Navigation Menu -->
+      <nav class="navigation" id="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Optional Button -->
+      <a href="Signup.html" class="btn">Sign Up</a>
+    </div>
+  </div>
+</header>
 
   <!-- HERO SECTION -->
   <section class="hero">
@@ -187,6 +194,15 @@
       },
     });
   </script>
+
+<script>
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>

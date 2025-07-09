@@ -1297,3 +1297,51 @@ h1 {
   color: #9a3fc3;
   text-decoration: none;
 }
+
+/* Mobile Styles */
+/* ======= MOBILE MENU ======= */
+.menu-toggle {
+  display: none;
+}
+
+/* Show hamburger icon and hide nav by default on mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .navigation {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    z-index: 999;
+  }
+
+  .navigation.active {
+    display: block;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navigation ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .header-right {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
